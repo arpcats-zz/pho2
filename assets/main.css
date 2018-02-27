@@ -1,0 +1,45 @@
+body{ background: #f6f6f6; }
+input, select, textarea, button{ border-radius: 0 !important; }
+textarea { resize:vertical;}
+
+/*BS CUSTOM*/
+.row.no-gutters { margin-right: 0; margin-left: 0; }
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] { padding-right: 0; padding-left: 0; }
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{ border-bottom: 1px solid #ddd; border-top:none !important; }
+
+.photo-box{ background: #fff; padding:10px; box-shadow: 0px 1px 2px;}
+.post-photos{ height:80px; }
+.post-photos img{ height:75px; }
+
+.fderr-msg{ font-size: 12px; }
+
+.arpdz-photos{ border: 3px dashed #ddd; padding: 5px; }
+.progress{ height: 3px !important; margin-bottom: 0 !important; background: #aaa; }
+.arpdz-photos .dropzone .dz-preview{ display: block !important; }
+
+#dz-preview-template .dz-details{ position: relative !important; padding: 0em 0.5em !important; }
+#template-preview .dz-preview, #dropzone .dz-preview{ background: #ddd !important; padding: 5px 0; height: 115px; }
+#template-preview{ padding-top: 1px; }
+#dz-preview-template .arpdz-action{ padding: 3px; }
+
+.dropzone .dz-message{ display: none !important; }
+.dropzone .dz-preview{ margin: 1px !important; }
+.dropzone{ min-height: 0 !important; padding: 0 !important; border: none !important; }
+
+.current-resources{ border-bottom: 1px solid #ddd; margin-bottom: 15px; padding-bottom: 3px; }
+.current-resources .post-photos img{ height: 80px; -webkit-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out;	transition: all .2s ease-in-out; }
+.current-resources #currlist{ background: #ddd; padding-top: 5px; border-left:2px solid #fff; border-top:2px solid #fff;}
+
+.arp-myclick:active{ background:#ff5500; }
+.arp-myclick img:active{ filter: grayscale(100%); }
+.arp-myclick progress:active{ background-color: #aaa !important; }
+
+.arp-rmphoto{ cursor:pointer: }
+.arp-rmphoto:active{ color: #ff5500; }
+
+.arp-nopadding{ padding: 0 !important; }
+.arp-padding5{ padding: 5px !important; }
+.arp-nomargin{ margin: 0 !important; }
+.arp-size12{ font-size: 12px; }
